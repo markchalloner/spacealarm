@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/instructions_debug_cid_lac"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:layout_marginTop="10dip"
+/>
+<TextView  
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:text="Cell Id"
+	android:textAppearance="?android:attr/textAppearanceMedium"
+	android:layout_marginTop="10dip"
+/>
+<EditText 
+	android:id="@+id/debugCidEdit" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:inputType="number"
+/>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="LAC"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+	android:layout_marginTop="10dip"
+ />
+<EditText 
+	android:id="@+id/debugLacEdit" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:inputType="number"
+/>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="MNC"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+	android:layout_marginTop="10dip"
+ />
+<EditText 
+	android:id="@+id/debugMncEdit" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:inputType="number"
+/>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="MCC"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+	android:layout_marginTop="10dip"
+ />
+<EditText 
+	android:id="@+id/debugMccEdit" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:inputType="number"
+/>
+<Button 
+	android:text="@string/button_update" 
+	android:id="@+id/debugCidLacUpdate" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="10dip"
+/>
+
+</LinearLayout>

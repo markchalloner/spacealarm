@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- 
+	<item 
+		android:id="@+id/menuMainSearch"
+		android:title="@string/menu_main_search" 
+		android:icon="@drawable/ic_menu_search"
+	/>
+	-->
+	<item 
+		android:id="@+id/menuMainNew"
+		android:title="@string/menu_main_new" 
+		android:icon="@drawable/ic_menu_add"
+	/>
+	<item 
+		android:id="@+id/menuMainPreferences"
+		android:title="@string/menu_main_preferences"
+		android:icon="@drawable/ic_menu_preferences" 
+	/>
+	<item 
+		android:id="@+id/menuMainDebug"
+		android:title="@string/menu_main_debug"
+		android:icon="@drawable/ic_menu_debug"
+		android:visible="false" 
+	/>
+	
+</menu>

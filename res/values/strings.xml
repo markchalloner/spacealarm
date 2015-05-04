@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Space Alarm</string>
+	<string name="app_name_edit">Edit alarm</string><string name="app_name_preferences">Preferences</string><string name="app_name_map">Select location</string><string name="instructions_alarms_none">You don\'t have any location alarms to display.</string>
+<string name="instructions_alarms_add">To add location alarms press &lt;b&gt;Menu&lt;/b&gt; and touch &lt;b style=&quot;color:#FFF;&gt;New location alarm&lt;/b&gt;.</string>
+<string name="menu_main_new">New location alarm</string>
+<string name="menu_main_search">Search</string>
+<string name="instructions_map_add">Add a new alarm by locating and holding the point on the map below.</string>
+<string name="menu_add_help">Help</string>
+
+
+
+
+<string name="context_map_select">Select point</string>
+<string name="context_map_cancel">Cancel</string>
+<string name="button_ok">Save</string>
+<string name="button_cancel">Cancel</string>
+
+<string name="context_main_edit">Edit alarm</string>
+<string name="context_main_delete">Delete alarm</string>
+<string name="preference_category_service">Service</string>
+<string name="menu_main_preferences">Preferences</string>
+
+
+<string name="preference_service_start_title">Start service</string><string name="preference_service_start_summary">This preference allows selection of when the SpaceAlarm service is started</string>
+<string name="preference_service_enabled_title">Enable service</string>
+<string name="preference_service_enabled_summary">This preference allows selection of whether or not to start the SpaceAlarm service</string>
+<string name="preference_category_notification">Notifications</string>
+<string name="preference_notification_sound_enabled_title">Enable sound</string><string name="preference_notification_sound_enabled_summary">This preference allows playing a notification sound when an alarm is triggered</string><string name="preference_notification_sound_title">Sound</string>
+<string name="preference_notification_sound_summary">This preference allows selection of the notification sound</string>
+
+
+<string name="preference_notification_vibrate_enabled_title">Enable vibration</string>
+<string name="preference_notification_vibrate_enabled_summary">This preference allows the phone to vibrate when an alarm is triggered</string>
+<string name="preference_notification_lights_enabled_title">Enable lights</string>
+<string name="preference_notification_lights_enabled_summary">This preference allows the phones lights to be activated when an alarm is triggered</string>
+<string name="menu_cancel">Cancel</string>
+<string name="menu_save">Save</string>
+<string name="alert_ok">Ok</string>
+<string name="button_add">Add</string>
+<string name="button_remove">Remove</string>
+<string name="menu_main_debug">Debug</string>
+<string name="preference_category_debug">Debug</string>
+<string name="preference_debug_enabled_title">Enable debug mode</string>
+<string name="preference_debug_enabled_summary">This preference allows access to the debug screen and should only be used by advanced users</string>
+<string name="instructions_debug_cid_lac">Set a debug value for the Cell Id and Lac below and press update</string>
+<string name="app_name_debug">Debug</string>
+<string name="button_update">Update</string>
+</resources>

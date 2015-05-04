@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+    	android:id="@+id/contextMainEdit" 
+    	android:title="@string/context_main_edit" 
+   	/>
+   	<item 
+    	android:id="@+id/contextMainDelete" 
+    	android:title="@string/context_main_delete" 
+   	/>
+</menu>

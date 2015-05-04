@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+>
+    <TextView 
+    	android:id="@+id/instructionsAlarmsNone"
+		android:text="@string/instructions_alarms_none" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="#CCC"
+		android:layout_margin="10dip"
+	/>      
+	<TextView 
+		android:id="@+id/instructionsAlarmsAdd" 
+		android:text="@string/instructions_alarms_add" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="#CCC" 
+		android:layout_margin="10dip"
+	/>
+	<TextView 
+		android:id="@+id/alarmsListCount" 
+		android:text="" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:textColor="#CCC" 
+		android:gravity="center"
+		android:layout_margin="10dip"
+		android:visibility="gone"
+	/>
+	<com.spacealarm.SpaceAlarmListView
+		android:id="@+id/alarmsList"
+		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content" 
+ 		android:visibility="gone"
+	/>
+</LinearLayout>
+
+<!-- debug="0SOO0DFRNum8-2iO_YIgIkKDZb8CRhfgRrQkpSA" -->
+<!-- live="0P72T4Gz4QdIsgI_s3i7A6tFTc31i45KAhFGd_Q" -->
+

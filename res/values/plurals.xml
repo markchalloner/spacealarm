@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+<plurals name="main_alarm_count">
+	<item quantity="one">Displaying 1 alarm</item>
+	<item quantity="other">Displaying <xliff:g id="count">%d</xliff:g> alarms</item>
+</plurals>
+<plurals name="edit_locations_count">
+	<item quantity="one">1 location</item>
+	<item quantity="other"><xliff:g id="count">%d</xliff:g> locations</item>
+</plurals>
+
+</resources>
